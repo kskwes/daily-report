@@ -1,11 +1,13 @@
 # 社内日報サービス
 
 ## 概要
-- 社内で使用することを想定した日報管理サービス
+- 社内で使用することを想定した日報管理サービス  
+- http://outputground.php.xdomain.jp/daily-report/work/public/
 
 ## 開発
 - PHP
 - Bootstrap
+- サーバー：XFREE
 
 ## 仕様
 1. 登録用ページでユーザー登録  
@@ -17,6 +19,9 @@
 - ユーザー情報（一般・管理）
 2. トップページからログイン  
 ( /public/ )
+※管理（確認）用ユーザー
+- email: admin@example.com
+- password: 1234
 3. ログイン後、トップページから日報を投稿
 4. 一覧ページで日報一覧を取得
 ( /list/ )
