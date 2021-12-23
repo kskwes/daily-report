@@ -1,0 +1,37 @@
+.modal_btn {
+    cursor: pointer;
+}
+
+.modal_box {
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.modal_bg {
+    background-color: rgba(30, 30, 30, 0.9);
+    height: 100%;
+    width: 100%;
+}
+
+.modal_inner {
+    background-color: #fff;
+    left: 50%;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 900px;
+}
+
+.modal_close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
